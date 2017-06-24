@@ -1,31 +1,42 @@
-# penna1  :rocket:
+# bupaCTA  :rocket:
 
 ### background  :bell:
-Customers feedback survey showed that users were finding it difficult to find the basket when adding an item to their basket
+Our design team are starting to mock up designs with new orange style buttons. We would like to understand the impact of these before making a decision to roll out across the site.
+
 
 ### objective :book:
-By adding an animation feature to the mini-basket when a  user adds an item to their basket will help users know where to click to view their basket; which will lead to users clicking to the checkout funnel and ultimately increase conversion. 
+By presenting a more prominent quote CTA button, in orange, we will see more customers clicking on this and landing on the BBY Quote and Buy journey as a result.
+
+### test goals
+- to increase clicks on the 'Get a quote button'
+- to increase visitors reaching BBY quote and Buy
 
 ### targeting
-www.penhaligons.com
-desktop only/ chrome 45+, firefox 45+, e10, safari
+www.bupa.co.uk.com
+
+- desktop,table and mobile  
+- chrome 45+, firefox 45+, e10
 
 
 
 ### notes
-- all variation changes completed => one.js file
-- changes 'proceed to checkout' cta color (no hexa value has been provided)
-- sets display block to the dropdown checkout and notifications 'item added'
-  when you click 'add to bag' cta
-- re arranges price to the top (done with ajax) so it neeeded
-  a few extra tweaks to get the timing right (along with style display block to push it)
-- font size larger => class added using a for loop (no font size provided either):changed to 1.5ems
-- experiment working ok
+- Update the ‘Get a quote’ button to the orange colour with white copy and rounded edges.     
+- Colour guide above for rest/active state of the button.
+- CTA
+-		orange => #fe5000    normal state
+				  #254800	 active & hover state  
+				  (it's 30% darker if SASS)
+
 
 
 ### remains to be done
+
+```
+	URL must contain &utm-source=’yes’
+	Cookie ab_yes must have value (yes)
+```
 metrics 
-GA Universal Slot 3 
+ 
 
 
 
