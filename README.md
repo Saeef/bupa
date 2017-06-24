@@ -36,8 +36,8 @@ www.bupa.co.uk.com
  
 
 
-kbd>desktop variation</kbd> :rocket:        
-![](images/bupaCTAvar.pngb)
+<kbd>desktop variation</kbd> :rocket:        
+![](images/bupaCTAvar.png)
 
 
 
