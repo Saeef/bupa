@@ -36,7 +36,7 @@ www.bupa.co.uk.com
  
 
 
-<kbd>desktop variation</kbd> :rocket:        
+<kbd>mobile variation</kbd> :rocket:        
 ![](images/bupaCTAvar.png)
 
 
