@@ -44,7 +44,7 @@ metrics
 
 
 kbd>desktop</kbd> :rocket:        
-![](/images/finaldraft.png) 
+![](/images/bupaCTAcontrol.png) 
 
 
 
