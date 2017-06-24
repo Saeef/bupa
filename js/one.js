@@ -1,19 +1,16 @@
-(function(andRedEyelikePenhaligons1, undefined) {
+(function(andRedEyelikeBupaCTA, undefined) {
     var $ = window.jQuery;
     var SL = {};
-    SL.andRedEyelikePenhaligons1 = {
+    SL.andRedEyelikeBupaCTA = {
         init: function() { 
             this.pgCssDesktop();
-            this.simulation();
-
-           
-               
+            this.CTA();
         },
         //init
-
+ 
         pgCssDesktop: function() {
             console.info('%c pgCssDesktop \u221a', 'background:blue;color:white;');
-            var mainCss = " #basketSummaryMenu a.corebtn.sm {background:#209c20;} .larger {font-size:1.45em; line-height:24px; font-weight: normal !important;} ";
+            var mainCss = " .arancio {font-size:1.08em; padding:17px; font-weight:500; float:left; color:#fff; background:#fe5000; border:3px solid #fe5000; border-radius:3px; text-decoration:none; text-align:center;width:120px; -moz-transition:color .2s ease-in; -o-transition:color .2s ease-in; -webkit-transition:color .2s ease-in;} .arancio:hover, .arancio:active {color:#fff; background:#b20400; border:3px solid #b20400; text-decoration:none; text-align:center; width:120px;} @media screen and (max-width:420px) { .arancio {padding:10px 14px; margin-top:22px !important; font-size:16px !important;}} @media screen and (max-width:772px) {.arancio {font-size:18px; padding:8px 14px; margin-top:22px !important;}} ";
 
             var head = document.getElementsByTagName('head')[0];
             function addcss(css) {
@@ -28,105 +25,25 @@
         }, //pgCssDesktop
 
 
-        simulation: function() {
-            console.info('%c simulation \u221a', 'background:blue;color:white;');
-            //basket
-            var basket = document.getElementById('basketSummaryMenu');
-            //message
-            var mess = document.getElementById('itemAddedbasketSummaryMenu');
-            
+        CTA: function() {
+            console.info('%c CTA \u221a', 'background:blue;color:white;');
+            var orange = document.
+            querySelector('div.nav-main.mod-mobile-nav > div > div > span > a');
+            orange.className = "arancio qte_btnInsideNudge";
 
-
-            document.querySelector('.addtoBasket').addEventListener('click', function(e) {
-                console.log(e);
-                showBasketSummary('basketSummaryMenu',-350,30);
-                var droppedbasked = document.querySelector('.ajx-basket-container');
-                basket.style.display = 'block';
-                mess.style.display = 'block';
-                basket.style.opacity = 0;
-                mess.style.opacity = 0;
-              
-                //if basket shown
-                if(basket) {
-                    console.log('display set to block');
-                    setTimeout(setDisplay,1500);   
-                }//if basket showing
-
-            },false);
-
-            //deals w/site-evt
-           $('#basketSummaryMenu').mouseleave(function() {
-                forgetAboutHidingTable("basketSummaryMenu");
-           });
-           //onmouseleave jquery evt
-
-           function setDisplay() {
-                var oneAmt,two,three,four,cloned, inserto;
-                var bassum = document.getElementById('basketSummaryMenu');
-                var items = document.querySelectorAll('.basket-sum-itemcontainer')[0].children;
-                //if bassum display block
-                if(bassum.style.display === 'block') {
-                    //bassum is on, set back off
-                    bassum.style.opacity = 0;
-                        for(var i=0; i < items.length; i++) {
-                            if(items[i].children[1].children.length == 3) {
-                                oneAmt = items[i].children[1].children[2];
-                                inserto = items[i].children[1].children[0];
-                                console.log(oneAmt);
-                                cloned = oneAmt.cloneNode(true);
-                                oneAmt.parentElement.removeChild(oneAmt);
-                                inserto.parentElement.insertBefore(cloned,inserto);
-                            }
-                            else if (items[i].children[1].children.length == 4) {
-                                oneAmt = items[i].children[1].children[3];
-                                console.log(oneAmt);
-                                cloned = oneAmt.cloneNode(true);
-                                oneAmt.parentElement.removeChild(oneAmt);
-                                inserto = items[i].children[1].children[0];
-                                inserto.parentElement.insertBefore(cloned,inserto);
-                                
-                            }//else
-                            
-                        }//for items loop   
-
-                }//if bassum
-
-                setTimeout(lightsOn,500);
-                bassum.style.opacity = 1; 
-
-           }//setDisplay fn
-
-            function lightsOn() {
-                var basket = document.getElementById('basketSummaryMenu');
-                //added to basket msg
-                var mess = document.getElementById('itemAddedbasketSummaryMenu');
-                mess.style.display = 'block';
-                basket.style.opacity = 1;
-                mess.style.opacity = 1;  
-
-                //sets larger class
-                var tclass = document.querySelectorAll('.desc .mtb0-3.f-bold');
-                for(var i=0; i < tclass.length; i++) {
-                    if(tclass[i].className === 'mtb0-3 f-bold') {
-                        tclass[i].className += " larger";
-                    }//if
-                }//for loop class
-            }//lightsOn
-
-
-           
-           
-
+            //cta-mob
+            var ormob = document.querySelector('.qte_btnInsideSearch_holder .btn-white-box.bg-white.qte_btnInsideNudge ');
+            ormob.className = "arancio qte_btnInsideNudge";
         
-        }//simulation
+        }//CTA
 
 
     };
-    //SL.andRedEyelikePenhaligons1
+    //SL.andRedEyelikeBupaCTA
    (function pfjQ() {
-        if (document.getElementById('main') !== null) {
+        if (document.getElementById('overlay-container') !== null) {
             try {
-                SL.andRedEyelikePenhaligons1.init();
+                SL.andRedEyelikeBupaCTA.init();
             } 
             catch (err) {
                   console.log('TRY ERROR: '+ err);
@@ -138,4 +55,4 @@
            
     })();//pfjQ
 
-}.call(window.andRedEyelikePenhaligons1 || {}));
+}.call(window.andRedEyelikeBupaCTA || {}));

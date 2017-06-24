@@ -20,28 +20,20 @@ www.bupa.co.uk.com
 
 
 ### notes
-- Update the ‘Get a quote’ button to the orange colour with white copy and rounded edges.     
+- Updated the ‘Get a quote’ button to the orange colour with white copy and rounded edges.     
 - Colour guide above for rest/active state of the button.
 - CTA
--		orange => #fe5000    normal state
-				  #254800	 active & hover state  
-				  (it's 30% darker if SASS)
+- orange => #fe5000    normal state
+  #254800	 active & hover state  
+  (it's 30% darker - SASS)
+- added media queries (desktop,tablet and mobile)
 
 
 
 ### remains to be done
-
-```
-	URL must contain &utm-source=’yes’
-	Cookie ab_yes must have value (yes)
-```
-metrics 
+- test across browsers
+- metrics 
  
-
-
-
-
-
 
 kbd>desktop</kbd> :rocket:        
 ![](/images/bupaCTAcontrol.png) 
