@@ -43,7 +43,7 @@ metrics
 
 
 
-kbd>desktop</kbd> :rocket:        
+<kbd>desktop control</kbd> :rocket:        
 ![](/images/bupaCTAcontrol.png) 
 
 
