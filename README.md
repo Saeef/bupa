@@ -35,7 +35,14 @@ www.bupa.co.uk.com
 - metrics 
  
 
-kbd>desktop</kbd> :rocket:        
+
+kbd>desktop variation</kbd> :rocket:        
+![](images/bupaCTAvar.pngb)
+
+
+
+
+<kbd>desktop control</kbd> :rocket:        
 ![](/images/bupaCTAcontrol.png) 
 
 
