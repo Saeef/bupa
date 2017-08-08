@@ -20,13 +20,8 @@ see testPlan
 
 
 ### notes
-- Updated the ‘Get a quote’ button to the orange colour with white copy and rounded edges.     
-- Colour guide above for rest/active state of the button.
-- CTA
-- orange => #fe5000    normal state
   #254800	 active & hover state  
   (it's 30% darker - SASS)
-- added media queries (desktop,tablet and mobile)
 
 
 
