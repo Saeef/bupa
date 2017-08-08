@@ -12,7 +12,7 @@ By presenting a more prominent quote CTA button, in orange, we will see more cus
 - to increase visitors reaching BBY quote and Buy
 
 ### targeting
-www.bupa.co.uk.com
+see testPlan
 
 - desktop,table and mobile  
 - chrome 45+, firefox 45+, e10
